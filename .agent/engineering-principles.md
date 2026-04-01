@@ -17,4 +17,4 @@ These are general engineering principles that should be followed in this project
 - **Automated Testing:** Aim for high-quality automated tests that provide confidence in the system's correctness.
 - **Continuous Improvement:** Regularly refactor and improve the codebase as part of the normal development process.
 - **Pragmatism:** Choose the right tool for the job. Avoid over-engineering and strictly dogmatic approaches.
-- **Documentation:** Keep documentation (like this `.agent` workspace) accurate and up to date.
+- **Documentation:** Keep documentation (like this `.agent` workspace) and code documentation (using `/** ... */` for functions) accurate and up to date.
