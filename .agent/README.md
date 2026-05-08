@@ -48,17 +48,14 @@ Use a status table or checklist so progress is easy to scan. Once execution star
 
 ## Operating Model & Workflow
 
-To maintain project quality and consistency, follow this workflow:
+To maintain project quality and consistency, follow the workflow defined in [**`agent.md`**](./agent.md).
 
-1. **Read Core Guidance:** Familiarize yourself with the engineering, architecture, and [testing](./testing.md) principles in the root of `.agent/`.
-2. **Plan Major Changes:** For any significant feature or refactor, create a new plan in `plans/draft/` using the [template](./plans/template.md).
-3. **Review & Refine:** Review the plan to ensure it aligns with project principles. Refine as necessary.
-4. **Approve & Implement:** Once a plan is solid, proceed with implementation. Move the plan to `plans/in-progress/`.
-5. **Track Progress:** Update the plan's execution status as tasks are completed, blocked, or require user input.
-6. **Record Activity:** Log your progress, decisions, and any deviations from the plan in `logs/`.
-7. **Maintain Documentation:** Keep the `project-specification/` area up to date as the project evolves.
-8. **Update Tasks & Decisions:** Use `tasks.md` and `decisions.md` to track ongoing work and key architectural choices.
-9. **Archive Only on User Request:** When the user explicitly says to archive a plan, move it to `plans/archived/`.
+### Core Summary
+
+1. **Bootstrap:** Always start by reading the `.agent/` directory to initialize context.
+2. **Read Core Guidance:** Familiarize yourself with the engineering, architecture, and [testing](./testing.md) principles.
+3. **Plan Major Changes:** For any significant feature or refactor, create a new plan in `plans/draft/`.
+4. **Track & Log:** Update plan status in `plans/in-progress/` and record activity in [`logs/changelog.md`](./logs/changelog.md).
 
 ## Logging Rule
 

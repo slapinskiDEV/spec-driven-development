@@ -1,6 +1,13 @@
-# Workflow Guidance
+# Agent Guidance
 
-This document describes the workflow for making changes to the project.
+This document defines the core workflow for the agent.
+
+## First Step: Bootstrap
+
+Before starting any task, the agent MUST:
+1.  **Read the `.agent/` directory:** Explore all files and folders in `.agent/` to internalize the project's engineering principles, architecture, and standards.
+2.  **Review `agent.md`:** Ensure you are following the latest workflow and guidelines (this file).
+3.  **Assess Current State:** Read `.agent/tasks.md` and check `.agent/plans/in-progress/` to understand ongoing work and priorities.
 
 ## Standard Workflow
 

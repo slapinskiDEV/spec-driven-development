@@ -14,4 +14,4 @@ The [plan template](./template.md) is available for creating new plans.
 
 ## Lifecycle
 
-See [`../README.md`](../README.md) and [`../workflow.md`](../workflow.md) for the full plan lifecycle rules.
+See [`../README.md`](../README.md) and [`../agent.md`](../agent.md) for the full plan lifecycle rules.
